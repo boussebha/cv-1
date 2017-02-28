@@ -10,9 +10,7 @@
 		 <link rel="stylesheet" href="monCV.css" > 
 	    
 	  <script language="javascript" type="text/javascript">
-  function afficher(id_div) {
-  ...
-  }
+
   </script>  
 	    
 	    
@@ -24,13 +22,15 @@
       <div id = "info">  
       <h1> Information </h1>
 	   <li>Nom:Boussebha</li>
-	  <li> prenom: Asma - Roumeissa</li>
+	  <li> Prenom: Asma - Roumeissa</li>
           <li>Né le 11 avril 1990</li>
           <li> Adresse: 61 Avenue Paul Santy, Lyon</li>
+	     <li> email: asmaboussebha@gmail.com</li>   
       </div>
         
-   <h2> Formation <button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button></h2> 
+   <h2> Formation </h2> 
    <div id = "Formation"> 
+      <button style="font-size: 50%;" onclick="afficher('#Formation');">cacher</button>
        <li> 2016-2017:</li>
        <p>class = "titre"> Master 2 Competence complementaire en informatique<br/>
                 <a href="http://www.univ-lyon1.fr/"> Université lyon1</a> </p>
@@ -57,7 +57,7 @@
 	   <p> class = "langue"> Français: bilingue <br/>
            </div>
 
- 
+       <button style="font-size: 50%;" onclick="afficher('#Formation');">soumettre</button>
 			  
     </body>
 </html>
