@@ -7,9 +7,12 @@
         <title>CV Boussebha Asma-RECHERCHE DE STAGE</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		 <link rel="stylesheet" href="monCV.css" > 
+		 <link rel="stylesheet" href="cv.css" > 
 	    
 	  <script language="javascript" type="text/javascript">
+		  function afficher(id_div) {
+			  $(id).toggle()
+		  }
 
   </script>  
 	    
@@ -31,7 +34,8 @@
       </div>
         
    <h2> Formation </h2> 
-   <div id = "Formation">  <button style="font-size: 50%;" onclick="afficher('#Formation');">cacher</button>
+	     <button style="font-size: 50%;" onclick="afficher('#Formation');">cacher</button>
+   <div id = "Formation"> 
      <ul>
           <li> 2016-2017:</li>
           <p> Master 2 Competence complementaire en informatique<br/>
