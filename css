@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Boussebha Asma-personnalisé</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="monCV.css" > 
+    </head>
+    
+    .section{
+        margin-bottom : 70px;
+        text-align : justify;
+    }    
+    
+	h2{
+     font-size : 28px;
+     color : #3388BB; 
+     } 
+    
+     .Section droite{
+         
+     }
+
+    h3{ 
+		color: red;
+		font-style:italic;
+		font-size:18px;
+    }
