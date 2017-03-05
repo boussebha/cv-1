@@ -1,74 +1,95 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-	    
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-	    
-        <title>CV Boussebha Asma-RECHERCHE DE STAGE</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		 <link rel="stylesheet" href="cv.css" > 
-	    
-	  <script language="javascript" type="text/javascript">
-		  function afficher(id) {
-			  $(id).toggle()
-		  }
+        <link rel="stylesheet" href="style.css" type="text/css"/>
 
-  </script>  
-	    
-	    
+        <title>Curriculum Vitae</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="style.css" > 
     </head>
-    
-    
-    
     <body>
-      <div id = "info">  
-      <h1> Information </h1>
+    <div class="Page"></div>
+    <div class="infomations">  
 	 <ul>
 	  <li>Nom:Boussebha</li>
-	  <li> Prenom: Asma - Roumeissa</li>
+	  <li>Prenom: Asma - Roumeissa</li>
           <li>Né le 11 avril 1990</li>
-          <li> Adresse: 61 Avenue Paul Santy, Lyon</li>
-	  <li> email: asmaboussebha@gmail.com</li> 
+          <li>Adresse: 61 Avenue Paul Santy, Lyon</li>
+	  <li>email: asmaboussebha@gmail.com</li> 
 	  </ul>
-      </div>
-        
-   <h2> Formation </h2> 
-	     <button style="font-size: 70%;" onclick="afficher('#Formation');">cacher</button>
-   <div id = "Formation"> 
-     <ul>
-          <li> 2016-2017:</li>
-          <p> Master 2 Competence complementaire en informatique<br/>
-                <a href="http://www.univ-lyon1.fr/"> Université lyon1</a> </p>
-          <li> 2014-2016:</li>
-          <p> Master 2 Bioprotection et microbiologie de l'environnement<br/>
-                 <a href="http://www.univ-pau.fr/"> UPPA</a></p>
-       
-          <li> 2010-2012:</li>
-          <p> Master 2 Microbiologie et Controle de Qualité <br/>
-               <a href="http://www.usthb.dz/"> USTBH</a></p>
-      
-      </ul>     
-     </div>
+    </div>
+    
+    <div class="section">
+        <h2> Formation </h2>
+              <div class = "section-gauche" id="forma-gauche"> 
+              <p>2016-2017</p>
+              <p>2014-2016</p>
+              <p>2010-2012</p>
+              <p>2007-2010</p>
+          </div>
               
-        <h3> Experiences </h3> 
-	    <div id = "Experience">
-	      <ul>
-		 <li> 2016:</li>
-		 <p>  Stage a l'insitut de recherche microbiologique JM Wiam<br/>
-		 <li> 2015:</li>
-		 <p> Stage au centre national de recherche scientifique Marseille <br/>
-	      </ul> 
-	    </div>
-
+        <div class="section-droite">
+         
+            <p><span> Master 2 Competence complementaire en informatique</span><br/>
+                <a href="http://www.univ-lyon1.fr/"> Université lyon1</a> </p>
+            <p> <span>Master 2 Bioprotection et microbiologie de l'environnement</span><br/>
+                 <a href="http://www.univ-pau.fr/"> UPPA</a></p>
+            <p> <span> Master 2 Microbiologie et Controle de Qualité</span> <br/>
+               <a href="http://www.usthb.dz/"> USTBH</a></p>
+            <p> <span>Licence Microbiologie Fondamentale et Appliquée</span><br/>
+               <a href="http://www.usthb.dz/"> USTBH</a></p>
+      </div>
+      
+    </div>
+         <div class="section">
+             <h2> Experiences </h2> 
+                 <div class = "section-gauche" id='exp-gauche'> 
+                     
+                     <p>2016<br/><span class="duree">(6mois)</span></p>
+                    <p>2015<br/><span class="duree">(2mois)</span></p>
+                    <p>2013-2014<br/><span class="duree">(18mois)</span></p>
+                    <p>2012<br/> <span class="duree">(6mois)</span></p>
+                     
+                 </div>    
+       
+	        <div class = "section-droite"> 
+                    <p><span class="titre">Insitut de Recherche Microbiologique JM Wiam de Bruxelles</span><br/>
+                        Identification d'une glycoside hydrolase isolee d'une Archée halophile extreme
+                    </p>
+                    <p> <span class="titre">Centre National de Recherche Scientifique de Marseille</span><br/>
+                       Etude d'une sulfite oxydase presente dans la paroi de la bactérie hyperthemophil Aquifex aeolicus
+                    </p>
+                    <p> <span class="titre">Institut Pasteur d'Algerie</span><br/>
+                       Attachee d'etude aux laboratoires Microbiologie et Parasitologie, Cytologie Pathologique veterinaire.
+                    </p>
+                    <p> <span class="titre">Centre de Recherche Nucléaire d’Algérie</span><br/>
+                        Etude de la résistance des souches de Bacillus  aux rayons Gamma et aux rayons ultra-violets (UV)
+                    </p>
+                    
+             
+               </div>
+         </div>
+    
+          <div class="section">
+             <h2> Competences linguistiques </h2> 
+             <div class="section-gauche">
+                 <p><strong>Arabe:</strong><br/> </p>
+                 <p><strong>Français:</strong><br/> </p>
+                 <p><strong>Anglais:</strong><br/> </p>
+                 
+             </div>
+             <div class="section-droite">
+                 <p>Langue Maternelle<br/></p>
+                 <p>Bilingue<br/></p>
+                 <p>Courant</p>
+                 
+             </div>
+                     
+        </div> 
+      
 	    
-       <h4> Langue </h4> 
-	    <div id = "Langue">
-	   <p> Français: bilingue <br/>
-           </div>
-			  
+        
     </body>
 </html>
-
-
-
