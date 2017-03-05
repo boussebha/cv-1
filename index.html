@@ -3,11 +3,17 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-
         <title>Curriculum Vitae</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="cv.css" > 
+        <link rel="stylesheet" href="cv.css" > 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+	    
+	    <script language="javascript" type="text/javascript">
+		  function afficher(id) {
+			  $(id).toggle();
+		  }
+	    </script>  
     </head>
     <body>
     <div class="Page"></div>
@@ -22,7 +28,8 @@
     </div>
     
     <div class="section">
-        <h2> Formation </h2>
+        <h2> Formation  <button style="font-size: 50%;" onclick="afficher('#Formation');">cacher</button> </h2>
+	    <div id="Formation">
               <div class = "section-gauche" id="forma-gauche"> 
               <p>2016-2017</p>
               <p>2014-2016</p>
