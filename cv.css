@@ -3,6 +3,16 @@
 .section {
  margin-bottom: 70px;
  text-align: justify;
+ 
+}
+
+.section-gauche {
+float: left;
+
+}
+.section-droite {
+margin-left: 150px;
+margin-top: 37px;
 }
 h2{
     font-size: 28px;
@@ -10,18 +20,6 @@ h2{
     text-transform: uppercase;
     border-bottom: 1px solid black;
 }
-
-.section-droite {
-margin-left: 150px;
-margin-right: 37px;
-}
-
-.section-gauche {
-float: left;
-font-weight: bold;
-font-size: 20px;
-}
-
 .titre {
 font-weight: bold;
 font-size: 20px;
@@ -34,7 +32,7 @@ font-size: 20px;
 }
 
 #forma-gauche p{
-    margin-bottom: 30px;
+    margin-bottom: 37px;
    
 }
 
