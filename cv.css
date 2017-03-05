@@ -1,17 +1,43 @@
 
-<!DOCTYPE html>
-body { color:black;}
-    
+
+.section {
+ margin-bottom: 70px;
+ text-align: justify;
+}
 h2{
-     font-size : 28px;
-     color : #3388BB; 
-     } 
-    
+    font-size: 28px;
+    color: #990099;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
 
-h3{ 
-		color: #3388BB;
-		font-style:italic;
-		font-size:18px;
-    }
+.section-droite {
+margin-left: 150px;
+margin-right: 37px;
+}
 
+.section-gauche {
+float: left;
+font-weight: bold;
+font-size: 20px;
+}
 
+.titre {
+font-weight: bold;
+font-size: 20px;
+}
+
+.duree {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#forma-gauche p{
+    margin-bottom: 30px;
+   
+}
+
+#exp-gauche p{
+     margin-top:20px;
+}
